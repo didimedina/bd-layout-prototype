@@ -16,7 +16,7 @@ const SectionContent = styled("div", {
     width: "100%",
     display: "grid",
     gridTemplateColumns: "1.8fr repeat(12, 1fr) 1.8fr",
-    gap: "24px",
+    gap: "2%",
     maxWidth: "1280px",
     marginLeft: "24px",
     marginRight: "24px",

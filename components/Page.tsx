@@ -7,8 +7,6 @@ const Page = styled("div", {
     flexDirection: "column",
     justifyContent: "top",
     gap: "24px",
-    // backgroundColor: "Green",
-    // overflow: "scroll",
     overflowX: "hidden",
     overflowY: "auto"
 })
