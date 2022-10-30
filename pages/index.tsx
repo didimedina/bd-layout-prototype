@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Cards from '../components/Cards';
+import CTA from '../components/CTA';
+import Form from '../components/Form';
 import LinkList from '../components/LinkList';
 import Box from '../components/primitives/Box';
 import * as Layout from '../components/primitives/Layout';
@@ -36,8 +38,8 @@ export default function Home() {
                 </Layout.Section>
                 <Layout.Section>
                     <Layout.Content layout="60-40">
-                        <Cards/>
-                        <LinkList/>
+                        <Form/>
+                        <CTA/>
                     </Layout.Content>
                 </Layout.Section>
             </Layout.Page>

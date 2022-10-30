@@ -39,28 +39,42 @@ const StyledSection = styled("div", {
 const StyledContent = styled("div", {
     display: "grid",
     width: "100%",
-    maxWidth: "1280px",
-    paddingLeft: "clamp(12px, 12%, 128px)",
-    paddingRight: "clamp(12px, 12%, 128px)",
+    maxWidth: "1540px",
+    '@media (min-width: 520px)': {
+        paddingLeft: "2rem",
+        paddingRight: "2rem",
+    },
+    '@media (min-width: 1024px)': {
+        paddingLeft: "8rem",
+        paddingRight: "8rem",
+    },
+    '@media (min-width: 1280px)': {
+        paddingLeft: "12rem",
+        paddingRight: "12rem",
+    },
     alignItems: "start",
 
     variants: {
         layout: {
             ['overflow']: {
                 gridTemplateColumns: "1fr",
-                paddingLeft: "12px",
-                paddingRight: "12px", 
+                paddingLeft: "2rem",
+                paddingRight: "2rem", 
             },
             ['full']: {
                 gridTemplateColumns: "1fr"
             },
             ['60-40']: {
                 gridTemplateColumns: "0.6fr 0.4fr",
-                gap: "max(8%, 64px)",
+                '@media (min-width: 520px)': { gap: "2rem" },
+                '@media (min-width: 1024px)': { gap: "4rem" },
+                '@media (min-width: 1280px)': { gap: "8rem" },
             },
             ['70-30']: {
                 gridTemplateColumns: "0.7fr 0.3fr",
-                gap: "max(4%, 40px)",
+                '@media (min-width: 520px)': { gap: "2rem" },
+                '@media (min-width: 1024px)': { gap: "3rem" },
+                // '@media (min-width: 1280px)': { gap: "6rem" },
             },
         }
     },
