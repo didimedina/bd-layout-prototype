@@ -1,17 +1,3 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 const tabs = [
     { name: 'My Proxies', href: '#', current: true },
     { name: 'Support', href: '#', current: false },
@@ -22,7 +8,7 @@ const tabs = [
     return classes.filter(Boolean).join(' ')
   }
   
-  export default function Example() {
+  export default function SubNav() {
     return (
       <div className="border-b border-gray-200 pb-5 sm:pb-0 pt-6">
         <h3 className="text-4xl font-medium leading-6 text-gray-900">Proxies</h3>

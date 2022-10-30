@@ -11,7 +11,7 @@ const navigation = [
     return classes.filter(Boolean).join(' ')
   }
   
-  export default function Example() {
+  export default function LinkList() {
     return (
       <nav className="space-y-1" aria-label="Sidebar">
         {navigation.map((item) => (

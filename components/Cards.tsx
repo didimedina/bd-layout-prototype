@@ -20,12 +20,12 @@
   ```
 */
 import {
-    AcademicCapIcon,
-    BanknotesIcon,
-    CheckBadgeIcon,
-    ClockIcon,
-    ReceiptRefundIcon,
-    UsersIcon
+  AcademicCapIcon,
+  BanknotesIcon,
+  CheckBadgeIcon,
+  ClockIcon,
+  ReceiptRefundIcon,
+  UsersIcon
 } from '@heroicons/react/24/outline'
   
   const actions = [
@@ -77,7 +77,7 @@ import {
     return classes.filter(Boolean).join(' ')
   }
   
-  export default function Example() {
+  export default function Cards() {
     return (
       <div className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
         {actions.map((action, actionIdx) => (
