@@ -1,3 +1,4 @@
+// @ts-ignore
 const tabs = [
     { name: 'My Proxies', href: '#', current: true },
     { name: 'Support', href: '#', current: false },
@@ -5,6 +6,7 @@ const tabs = [
   ]
   
   function classNames(...classes) {
+
     return classes.filter(Boolean).join(' ')
   }
   
