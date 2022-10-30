@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Table.jsx", "components/SubNav.jsx", "components/Cards.jsx", "components/LinkList.jsx", "components/SubNav.jsx"],
   "exclude": ["node_modules"]
 }
