@@ -5,7 +5,6 @@ const Shell = styled("div", {
     height: "fit-content",
     display: "grid",
     backgroundColor: "#F8F9FA",
-    // overflow: "clip",
     gridTemplateRows: "auto 1fr",
     gap: "24px"
 })
